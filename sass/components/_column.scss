@@ -1,0 +1,12 @@
+@media #{$large-and-up} {}
+@media only screen and (min-width: $small-screen) and (max-width: $medium-screen) {
+    .column-m2 {
+        column-count: 2;
+        column-gap: $gutter-width;
+    }
+}
+@media #{$small-and-down} {
+    .column-s1 {
+        column-count: 1;
+    }
+}
